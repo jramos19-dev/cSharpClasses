@@ -25,6 +25,14 @@ namespace GAME2
 
 
 
+            UsefulTools useless = new UsefulTools;
+            //using a static method 
+
+            UsefulTools.sayHI("mike");
+
+            Console.WriteLine("what you doing");
+
+            Console.ReadLine();
 
         }
     }
