@@ -25,7 +25,7 @@ namespace GAME2
 
 
 
-            UsefulTools useless = new UsefulTools;
+            //UsefulTools useless = new UsefulTools;
             //using a static method 
 
             UsefulTools.sayHI("mike");
@@ -34,6 +34,20 @@ namespace GAME2
 
             Console.ReadLine();
 
+
+            Cheff cheff1 = new Cheff();
+
+            cheff1.makeSalad();
+
+            ItalianChef ic = new ItalianChef();
+
+            ic.makeSalad();
+
+            //sub class can use defined pasta;
+            ic.makePasta();
+
+            ic.MakeSpecialDish();
+           
         }
     }
 }
