@@ -20,7 +20,11 @@ namespace GAME2
             Movie movie1 = new Movie("the avengers", "jorge camello", "PG");
             Movie movie2 = new Movie("the avengers 2", "jorge camello", "PG");
 
-            Console.WriteLine(movie1.rating)
+            Song song1 = new Song("kashmir", "led zeppelin", 3.0f, 300);
+            Song song2 = new Song("walk", "pantera", 4.0f, 300);
+
+
+
 
         }
     }
